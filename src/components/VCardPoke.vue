@@ -7,13 +7,13 @@
       </div>
 
       <div class="flex">
-        <h4 class="font-bold">PV :</h4>
-        <p class="pl-3">{{ pv }}</p>
+        <h4 class="font-bold">:</h4>
+        <p class="pl-3">{{ height }}</p>
       </div>
 
       <div class="flex">
-        <h4 class="font-bold">Pouvoir :</h4>
-        <p class="pl-3">{{ power }}</p>
+        <h4 class="font-bold">Taille :</h4>
+        <p class="pl-3">{{ weight }}</p>
       </div>
     </div>
 
@@ -33,12 +33,12 @@ export default {
       required: true,
     },
 
-    pv: {
+    height: {
       type: String,
       required: true,
     },
 
-    power: {
+    weight: {
       type: String,
       required: true,
     },
